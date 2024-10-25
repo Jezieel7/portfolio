@@ -9,31 +9,25 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-
     <header class="header">
         <a href="#home" class="logo"> Jeziel
             <span>Paladino</span>
         </a>
-
         <i class='bx bx-menu' id="menu-icon"></i>
-
         <nav class="navbar">
             <a href="#home" class="active">Inicio</a>
             <a href="#about-me" class="active">Sobre mi</a>
             <a href="#education" class="active">Experiencia</a>
-            <a href="#" class="active">Blog</a>
-            <a href="#" class="active">Proyectos</a>
             <a href="#contact" class="active">Contacto</a>
-
+            <a href="https://github.com/jezieel7" class="active">Proyectos</a>
+            <a href="#" class="active">Blog</a>
         </nav>
     </header>
-
     <section class="home" id="home">
         <div class="home-content">
             <h1>¡Hola, soy <span>Jeze!</span></h1>
             <h3 class="text-animation"><span></span></h3>
-            <p>Mi objetivo y lo que me apasiona es desarrollar software de alto impacto y rendimiento. Aprender, desarrollar y enseñar son los 3 pilares que guían mi camino.
-            </p>
+            <p>Mi objetivo y lo que me apasiona es desarrollar software de alto impacto y rendimiento. Aprender, desarrollar y enseñar son los 3 pilares que guían mi camino. Mi principal tema de interés es la ingeniería de software.</p>
             <div class="social-icons-btn-group">
                 <div class="social-icons">
                     <a href="https://www.linkedin.com/in/jeziel-paladino/"><i class='bx bxl-linkedin'></i></a>
@@ -41,7 +35,7 @@
                 </div>
                 <div class="btn-group">
                     <a href="cv_paladino_jeziel.pdf" download="cv_paladino_jeziel" class="btn">Descargá mi CV</a>
-                    <a href="#contact" class="btn">Contactame</a>
+                    <a href="mailto:jezielpaladino@gmail.com" class="btn">Contactame</a>
             </div>
         </div>
         </div>
@@ -49,169 +43,126 @@
             <img src="Jeze.png" alt="">
         </div>    
     </section>
-
     <section class="home" id="about-me">
         <div class="home-content">
-            <h1>¡Hola, soy <span>Jeze!</span></h1>
-            <p>Actualmente estoy trabajando como Desarrollador de Software en ICBC Multipay, en el sector de Pagos y B2B; Al mismo tiempo, me encuentro estudiando la Licenciatura en Sistemas en la Facultad de Informatica de la Universidad Nacional de La Plata. Fuera del trabajo, me interesa mantenerme en forma, al igual que la moda; jugar videojuegos (antes mas frecuentemente), y en general diria que TODO lo referido a la cultura. Pero sobre todo lo que me llena el alma, sin duda son los amigos.
+            <h2 class="heading">Sobre Mi</h2>
+            <p>Tengo una visión integral de los proyectos, desde cuestiones de bajo nivel como refactoring, eficiencia, patrones, algoritmos y estructuras de datos. Hasta la planificación y evaluación de proyectos, mediante ingeniería de requisitos, análisis de riesgos, diseño de bases de datos, arquitecturas y metodologías de trabajo. Disfruto mucho de la tecnologia y dedico gran parte de mi tiempo a ella.</p>
+            <ul>
+                <p>Stack Actual:</p>
+                <li><span>Frontend:</span> JavaScript, TypeScript, Angular.</li>
+                <li><span>Backend:</span> Java, Spring.</li>
+                <li><span>DB:</span> Oracle, MySQL.</li>
+            </ul>
+            <p>Fuera del trabajo, me interesa mantenerme en forma, jugar videojuegos (antes mas frecuentemente), el cine, la historia y geopolitica, y en general diria que TODO lo referido a la cultura. Aunque realmente lo que me llena el alma, son mis amigos.</p>
         </div>
-        </div> 
     </section>
-
     <section class="education" id="education">
         <h2 class="heading">Desarrollo y Tecnología</h2>
-        <div class="timeline-items">
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                    <div class="timeline-date">2022 – Presente</div>
-                    <div class="timeline-content">
-                        <h3>Desarrollador Backend | MobyDigital</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo voluptate, facere nesciunt labore sunt nihil sed ad nobis consequuntur nostrum, cum magni aliquam laboriosam voluptatem quae molestias architecto quibusdam? Consectetur!</p>
-                    </div>
-            </div>
-            <div class="timeline-item">
                 <div class="timeline-dot"></div>
                     <div class="timeline-date">2022</div>
                     <div class="timeline-content">
-                        <h3>Desarrollador Backend | ICBC - Multipay Core</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo voluptate, facere nesciunt labore sunt nihil sed ad nobis consequuntur nostrum, cum magni aliquam laboriosam voluptatem quae molestias architecto quibusdam? Consectetur!</p>
+                        <h3>Desarrollador Backend | MobyDigital</h3>
+                        <p>Durante mi entrenamiento de 3 meses en Academy:</p>
+                        <p>● Mejoré los tiempos de carga de la aplicación de RRHH reduciéndolos en un 50% cambiando los datos enviados en las diferentes peticiones.</p>
+                        <p>● Mejoré la legibilidad del código, agregando programación funcional.</p>
+                        <p>● Capacité a compañeros que no habían utilizado programación funcional antes.</p>
+                        <p>● Implementamos todo un sistema de scraping, para alimentar la aplicación de RRHH con nuevos talentos diariamente.</p>
+                        <br>
+                        <p>Actualmente en ICBC Multipay, como cliente de MobyDigital.</p>
                     </div>
-            </div>
-            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">2022 - 2023</div>
+                    <div class="timeline-content">
+                        <h3>Desarrollador Backend | ICBC - Multipay Core</h3>
+                        <p>Principales contribuciones:</p>
+                        <p>● Permitir pagos a proveedores dentro o fuera de ICBC superiores a 100MM.</p>
+                        <p>● Proceso de modernizacion del Core de la aplicacion (Migracion de SP y SF, balanceo de cargas de servicios entre nuevos y viejos productos, implementacion de protocolo http).</p>
+                        <p>Tareas que realizaba:</p>
+                        <p>● Resolución de issues productivos.</p>
+                        <p>● Implementación de nuevas funcionalidades al sistema.</p>
+                        <p>● Migraciones de productos a nuevas tecnologías y procesos.</p>
+                    </div>
                 <div class="timeline-dot"></div>
                     <div class="timeline-date">2023 - Presente</div>
                     <div class="timeline-content">
                         <h3>Desarrollador Backend - ICBC - Pagos y B2B</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo voluptate, facere nesciunt labore sunt nihil sed ad nobis consequuntur nostrum, cum magni aliquam laboriosam voluptatem quae molestias architecto quibusdam? Consectetur!</p>
+                        <p>Principales contribuciones:</p>
+                        <p>● Desarrollo de funcionalidades para la prevencion de fraudes.</p>
+                        <p>Tareas que realizo:</p>
+                        <p>● Resolución de issues productivos.</p>
+                        <p>● Implementación de nuevas funcionalidades al sistema.</p>
+                        <p>● Migraciones de productos a nuevas tecnologías y procesos.</p>
                     </div>
-            </div>
-            <div class="timeline-item">
                 <div class="timeline-dot"></div>
                     <div class="timeline-date">2024 - 2024</div>
                     <div class="timeline-content">
                         <h3>Desarrollador Backend - Cobros, Administración y Seguridad</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo voluptate, facere nesciunt labore sunt nihil sed ad nobis consequuntur nostrum, cum magni aliquam laboriosam voluptatem quae molestias architecto quibusdam? Consectetur!</p>
+                        <p>Temporalmente, contribui en el proyecto de generacion y validacion de Token, desarrollando funcionalidades para integrarlo en mi área. Además, continuando con mis tareas en Pagos y B2B.</p>
                     </div>
-            </div>
         </div>
     </section>
-
     <section class="education" id="education"></section>
         <h2 class="heading">Docencia e Investigación</h2>
-        <div class="timeline-items">
-            <div class="timeline-item">
+
                 <div class="timeline-dot"></div>
                     <div class="timeline-date">2022</div>
                     <div class="timeline-content">
                         <h3>Becario de TI | LIFIA - UNLP</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo voluptate, facere nesciunt labore sunt nihil sed ad nobis consequuntur nostrum, cum magni aliquam laboriosam voluptatem quae molestias architecto quibusdam? Consectetur!</p>
+                        <p>Redacté mi primer short-paper investigando sobre el uso de los datos de las redes sociales de mayor alcance, y su aplicación a una plataforma educativa de visualizacion de datos en diversos formatos</p>
                     </div>
             </div>
-            <div class="timeline-item">
+
                 <div class="timeline-dot"></div>
                     <div class="timeline-date">2022 - 2024</div>
                     <div class="timeline-content">
                         <h3>Investigador | LIFIA - UNLP</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo voluptate, facere nesciunt labore sunt nihil sed ad nobis consequuntur nostrum, cum magni aliquam laboriosam voluptatem quae molestias architecto quibusdam? Consectetur!</p>
+                        <p>Investigué sobre prompt engineering y el acceso a apis de diversas IAs para poder implementarlas en una plataforma educativa. Luego, me involucre un tiempo con Metaversos y guantes hapticos, con Arduino y Unity.</p>
                     </div>
             </div>
-            <div class="timeline-item">
+
                 <div class="timeline-dot"></div>
-                    <div class="timeline-date">2023</div>
+                    <div class="timeline-date">2023 - 2023</div>
                     <div class="timeline-content">
                         <h3>Ayudante Adscripto - UNLP</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo voluptate, facere nesciunt labore sunt nihil sed ad nobis consequuntur nostrum, cum magni aliquam laboriosam voluptatem quae molestias architecto quibusdam? Consectetur!</p>
+                        <p>En la cátedra de orientación a objetos 2</p>
+                    <p> Objetivos generales:
+                            Profundizar los temas desarrollados en Orientación a Objetos 1 e introducir conceptos fundamentales en la construcción de arquitecturas de software modulares, extensibles y reusables, a través de conceptos fundamentales como: patrones de diseño, refactoring y frameworks. También en el uso de UML, para construir diagramas especificando distintos aspectos de un sistema. Los trabajos prácticos se realizan usando Java.</p>
                     </div>
             </div>
-            <div class="timeline-item">
+
                 <div class="timeline-dot"></div>
-                    <div class="timeline-date">2023</div>
+                    <div class="timeline-date">2023 - 2023</div>
                     <div class="timeline-content">
                         <h3>Mentor de Desarrollo Backend | MobyDigital </h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo voluptate, facere nesciunt labore sunt nihil sed ad nobis consequuntur nostrum, cum magni aliquam laboriosam voluptatem quae molestias architecto quibusdam? Consectetur!</p>
+                        <p>Tareas que realizaba:</p>
+                        <p>● Guiar, enseñar y transmitir conocimientos.</p>
+                        <p>● Estar en el día a día de los desarrolladores y resolver dudas o bloqueos.</p>
+                        <p>● Tomar decisiones de diseño, arquitectura e implementación.</p>
+                        <p>● Crear contenido del roadmap, ejercicios técnicos y evaluaciones técnicas.</p>
+                        <p>● Brindar onboarding técnico cuando ingresa un recurso.</p>
+                        <p>● Entrega y revisión del roadmap.</p>
+                        <p>● Crear un proyecto de práctica.</p>
+                        <p>● Corrección y revisión de código.</p>
+                        <p>● Participar de las mentorías 2 veces por semana.</p>
+                        <p>● Evaluar al alumno tanto en mentalidad como a nivel técnico.</p>
+                        <p>● Preparar ejercicios prácticos para los alumnos.</p>
+                        <p>● Enviar evaluaciones.</p>
+                        <p>● Corrección de evaluaciones.</p>
+                        <p>● Compromiso de entregables, evaluaciones y devoluciones en tiempo y forma.</p>
+                        <p>● Reportar el avance de los alumnos tanto técnica como actitudinalmente.</p>
+                        <p>● Entrevistar perfiles para Moby Academy.</p>
+                        <p>● Preparación de clases.</p>
                     </div>
             </div>
-            <div class="timeline-item">
+
                 <div class="timeline-dot"></div>
                     <div class="timeline-date">2023 - Presente</div>
                     <div class="timeline-content">
                         <h3>Ayudante Alumno</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo voluptate, facere nesciunt labore sunt nihil sed ad nobis consequuntur nostrum, cum magni aliquam laboriosam voluptatem quae molestias architecto quibusdam? Consectetur!</p>
+                        <p>En la cátedra de orientación a objetos 1</p>
+                        <p> Objetivos generales:
+                            Presentar formalmente el paradigma de orientación a objetos, sus características, ventajas y aplicaciones dentro del desarrollo de sistemas de software. Desarrollar prácticas concretas con lenguajes orientados a Objetos. Establecer metodologías de análisis y diseño orientados a objetos.</p>
                     </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="services" id="services">
-        <h2 class="heading">Services</h2>
-        <div class="services-container">
-            <div class="service-box">
-                <div class="service-info">
-                    <h4>Software Development</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, blanditiis aut? Cupiditate impedit doloribus dolorem eos. Excepturi perspiciatis explicabo nesciunt error animi vitae beatae, ratione est ut omnis rem tempore.</p>
-                </div>
-            </div>
-            <div class="service-box">
-                <div class="service-info">
-                    <h4>Software Development</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, blanditiis aut? Cupiditate impedit doloribus dolorem eos. Excepturi perspiciatis explicabo nesciunt error animi vitae beatae, ratione est ut omnis rem tempore.</p>
-                </div>
-            </div>
-            <div class="service-box">
-                <div class="service-info">
-                    <h4>Software Development</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, blanditiis aut? Cupiditate impedit doloribus dolorem eos. Excepturi perspiciatis explicabo nesciunt error animi vitae beatae, ratione est ut omnis rem tempore.</p>
-                </div>
-            </div>
-            <div class="service-box">
-                <div class="service-info">
-                    <h4>Software Development</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, blanditiis aut? Cupiditate impedit doloribus dolorem eos. Excepturi perspiciatis explicabo nesciunt error animi vitae beatae, ratione est ut omnis rem tempore.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="testimonials" id="testimonials">
-        <div class="testimonials-box">
-            <h2 class="heading">Testimonials</h2>
-            <div class="wrapper">
-                <div class="testimonial-item">
-                    <img src="image.png" alt="">
-                    <h2>Marylin</h2>
-                    <div class="rating">
-                        <i class='bx bxs-star' id="star"></i>
-                        <i class='bx bxs-star' id="star"></i>
-                        <i class='bx bxs-star' id="star"></i>
-                        <i class='bx bxs-star' id="star"></i>
-                        <i class='bx bxs-star' id="star"></i>
-                    </div>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere adipisci explicabo excepturi illum quo. Animi ipsum nam excepturi at fugit eum dignissimos quae illo, quidem in, debitis repudiandae eaque nulla!</p>
-                </div>
-                <div class="testimonial-item">
-                    <img src="image.png" alt="">
-                    <h2>Marylin</h2>
-                    <div class="rating">
-                        <i class='bx bxs-star' id="star"></i>
-                        <i class='bx bxs-star' id="star"></i>
-                        <i class='bx bxs-star' id="star"></i>
-                        <i class='bx bxs-star' id="star"></i>
-                        <i class='bx bxs-star' id="star"></i>
-                    </div>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere adipisci explicabo excepturi illum quo. Animi ipsum nam excepturi at fugit eum dignissimos quae illo, quidem in, debitis repudiandae eaque nulla!</p>
-                </div>
-                <div class="testimonial-item">
-                    <img src="image.png" alt="">
-                    <h2>Marylin</h2>
-                    <div class="rating">
-                        <i class='bx bxs-star' id="star"></i>
-                        <i class='bx bxs-star' id="star"></i>
-                        <i class='bx bxs-star' id="star"></i>
-                        <i class='bx bxs-star' id="star"></i>
-                        <i class='bx bxs-star' id="star"></i>
-                    </div>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere adipisci explicabo excepturi illum quo. Animi ipsum nam excepturi at fugit eum dignissimos quae illo, quidem in, debitis repudiandae eaque nulla!</p>
-                </div>
             </div>
         </div>
     </section>
@@ -236,26 +187,18 @@
     </section>
     <footer class="footer">
         <div class="social">
-            <a href="#"><i class='bx bxl-linkedin'></i></a>
-            <a href="#"><i class='bx bxl-github'></i></a>
-            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
-            <a href="#"><i class='bx bxl-twitter' ></i></a>
+            <a href="https://www.linkedin.com/in/jeziel-paladino/"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/jezieel7"><i class='bx bxl-github'></i></a>
         </div>
         <ul class="list">
             <li>
-                <a href="#">FAQ</a>
+                <a href="#">Blog</a>
             </li>
             <li>
-                <a href="#">Services</a>
+                <a href="#">Proyectos</a>
             </li>
             <li>
-                <a href="#">About Me</a>
-            </li>
-            <li>
-                <a href="#">Contact</a>
-            </li>
-            <li>
-                <a href="#">Testimonials</a>
+                <a href="#contact">Contacto</a>
             </li>
         </ul>
         <p class="copyright">
