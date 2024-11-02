@@ -16,7 +16,7 @@
 }
 
 html{
-    font-size: 60%;
+    font-size: 75%;
     overflow-x: hidden;
 }
 body{
@@ -101,14 +101,11 @@ span{
     margin-top: 1.5rem;
     line-height: 1;
 }
-.home-img{
-    border-radius: 50%;
-}
 .home-img img{
     position: relative;
     top: 3rem;
     width: 32vh;
-    border-radius: 50%;
+    border-radius: 5%;
     box-shadow: 0 0 25px var(--main-color);
     cursor: pointer;
     transition: 0.4s ease-in-out;
@@ -178,7 +175,6 @@ span{
     margin: 5rem 0;
 }
 .education{
-    padding: 100px 15px;
     background: var(--second-bg-color);
 }
 .education h2{
@@ -226,10 +222,12 @@ span{
     top: 10px;
 }
 .timeline-date{
-    font-size: 20px;
+    font-size: 26px;
     font-weight: 800;
     color: white;
     margin: 6px 0 15px;
+    display: flex;
+    justify-content: space-between;
 }
 .timeline-content{
     background-color: var(--bg-color);
@@ -253,9 +251,19 @@ span{
 }
 .timeline-content p{
     color: white;
-    font-size: 16px;
     font-weight: 300px;
     line-height: 22px;
+    line-height: 1.4;
+}
+.timeline-content-title{
+    font-size: 22px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.timeline-content-text{
+    font-size: 18px;
+    padding-left: 12px;
 }
 ::-webkit-scrollbar{
     width: 15px;

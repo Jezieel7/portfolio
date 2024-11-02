@@ -1,3 +1,12 @@
+<!--
+TODO:
+ Modificar seccion Sobre Mi.
+ Modificar seccion Publicaciones.
+ Agregar seccion de Proyectos.
+ Agregar seccion de Blog.
+ Modiificar estilado.
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,22 +25,23 @@
         <i class='bx bx-menu' id="menu-icon"></i>
         <nav class="navbar">
             <a href="#home" class="active">Inicio</a>
-            <a href="#about-me" class="active">Sobre mi</a>
-            <a href="#education" class="active">Experiencia</a>
-            <a href="#contact" class="active">Contacto</a>
-            <a href="https://github.com/jezieel7" class="active">Proyectos</a>
-            <a href="#" class="active">Blog</a>
+            <a href="#about-me">Sobre mi</a>
+            <a href="#education">Experiencia</a>
+            <a href="#publications">Publicaciones</a>
+            <a href="https://github.com/jezieel7">Proyectos</a>
+            <a href="#">Blog</a>
+            <a href="mailto:jezielpaladino@gmail.com">Contacto</a>
         </nav>
     </header>
     <section class="home" id="home">
         <div class="home-content">
             <h1>¡Hola, soy <span>Jeze!</span></h1>
-            <h3><span>Desarrollador y Profesor</span></h3>
-            <p>Apasionado por el desarrollo de software de alto impacto, los pilares que me guían son aprender, desarrollar y enseñar. Me especializo en ingeniería de software, donde mantengo una visión completa de cada proyecto, desde optimización y eficiencia en el código hasta planificación estratégica y análisis de riesgos. Disfruto profundamente de la tecnología y dedico gran parte de mi tiempo a explorar sus posibilidades.</p>
+            <h3><span>Desarrollador y profesor</span></h3>
+            <p>Apasionado por el desarrollo de software de alto impacto; los pilares que me guían son aprender, desarrollar y enseñar. Me especializo en ingeniería de software, donde mantengo una visión completa de cada proyecto, desde optimización y eficiencia en el código hasta planificación estratégica y análisis de riesgos. Disfruto profundamente de la tecnología y dedico gran parte de mi tiempo a explorar sus posibilidades.</p>
             <div class="social-icons-btn-group">
                 <div class="social-icons">
-                    <a href="https://www.linkedin.com/in/jeziel-paladino/"><i class='bx bxl-linkedin'></i></a>
-                    <a href="https://github.com/jezieel7"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.linkedin.com/in/jeziel-paladino/" target="_blank" rel="noopener noreferrer"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/jezieel7" target="_blank" rel="noopener noreferrer"><i class='bx bxl-github'></i></a>
                 </div>
                 <div class="btn-group">
                     <a href="cv_paladino_jeziel.pdf" download="cv_paladino_jeziel" class="btn">Descargá mi CV</a>
@@ -43,8 +53,7 @@
             <img src="Jeze.png" alt="">
         </div>    
     </section>
-    <section class="home" id="about-me">
-        <div class="home-content">
+    <section class="education" id="about-me">
             <h2 class="heading">Sobre Mi</h2>
             <p>Sarasa Sarasa</p>
             <ul>
@@ -53,143 +62,141 @@
                 <li><span>Backend:</span> Java, Spring.</li>
                 <li><span>DB:</span> Oracle, MySQL.</li>
             </ul>
-            <p>Fuera del trabajo, me interesa mantenerme en forma, jugar videojuegos (antes mas frecuentemente), el cine, la historia, geopolitica, y en general todo lo referido a la cultura; aunque realmente lo que me llena el alma, son mis amigos.</p>
+            <p>Fuera del trabajo, me interesa mantenerme en forma, jugar videojuegos (antes mas frecuentemente), el cine, la historia, geopolítica, y en general todo lo referido a la cultura; aunque realmente lo que me llena el alma, son mis amigos.</p>
         </div>
     </section>
     <section class="education" id="education">
         <h2 class="heading">Desarrollo y Tecnología</h2>
                 <div class="timeline-dot"></div>
-                    <div class="timeline-date">2022</div>
+                    <div class="timeline-date">
+                        <div>Desarrollador Backend | MobyDigital</div>
+                        <div>2022</div>
+                    </div>
                     <div class="timeline-content">
-                        <h3>Desarrollador Backend | MobyDigital</h3>
-                        <p>Durante mi entrenamiento de 3 meses en Academy:</p>
-                        <p>● Mejoré los tiempos de carga de la aplicación de RRHH reduciéndolos en un 50% cambiando los datos enviados en las diferentes peticiones.</p>
-                        <p>● Mejoré la legibilidad del código, agregando programación funcional.</p>
-                        <p>● Capacité a compañeros que no habían utilizado programación funcional.</p>
-                        <p>● Implementamos un sistema de scraping, para alimentar la aplicación de RRHH con nuevos talentos diariamente.</p>
+                        <p class="timeline-content-title">Durante mi entrenamiento de 3 meses en Academy:</p>
+                        <p class="timeline-content-text">● Mejoré los tiempos de carga de la aplicación de RRHH reduciéndolos en un 50% cambiando los datos enviados en las diferentes peticiones.</p>
+                        <p class="timeline-content-text">● Mejoré la legibilidad del código, agregando programación funcional.</p>
+                        <p class="timeline-content-text">● Capacité a compañeros que no habían utilizado programación funcional.</p>
+                        <p class="timeline-content-text">● Implementamos un sistema de scraping, para alimentar la aplicación de RRHH con nuevos talentos diariamente.</p>
                         <br>
-                        <p>Actualmente en ICBC Multipay, como cliente de MobyDigital.</p>
+                        <p class="timeline-content-title">Actualmente me desempeño en ICBC Multipay, empresa cliente de MobyDigital.</p>
                     </div>
                 <div class="timeline-dot"></div>
-                    <div class="timeline-date">2022 - 2023</div>
+                    <div class="timeline-date">
+                        <div>Desarrollador Backend | ICBC - Multipay Core</div>
+                        <div>2022 - 2023</div>
+                    </div>
                     <div class="timeline-content">
-                        <h3>Desarrollador Backend | ICBC - Multipay Core</h3>
-                        <p>Principales contribuciones:</p>
-                        <p>● Permitir pagos a proveedores dentro o fuera de ICBC superiores a 100MM.</p>
-                        <p>● Proceso de modernizacion del Core de la aplicacion (Migracion de SP y SF, balanceo de cargas de servicios entre nuevos y viejos productos e implementacion de protocolo HTTP).</p>
-                        <p>Tareas que realizaba:</p>
-                        <p>● Resolución de issues productivos.</p>
-                        <p>● Implementación de nuevas funcionalidades al sistema.</p>
-                        <p>● Migraciones de productos a nuevas tecnologías y procesos.</p>
+                        <p class="timeline-content-title">Principales contribuciones:</p>
+                        <p class="timeline-content-text">● Permitir pagos a proveedores dentro o fuera de ICBC superiores a $100MM.</p>
+                        <p class="timeline-content-text">● Proceso de modernizacion del Core de la aplicacion (Migracion de SP y SF, balanceo de cargas de servicios entre nuevos y viejos productos e implementación de protocolo HTTP).</p>
+                        <p class="timeline-content-title">Tareas que realizaba:</p>
+                        <p class="timeline-content-text">● Resolución de issues productivos.</p>
+                        <p class="timeline-content-text">● Implementación de nuevas funcionalidades al sistema.</p>
+                        <p class="timeline-content-text">● Migraciones de productos a nuevas tecnologías y procesos.</p>
+                        <p class="timeline-content-title">La célula luego fue dividida en varias células debido a la carga de trabajo que implicaba para un solo equipo.</p>
                     </div>
                 <div class="timeline-dot"></div>
-                    <div class="timeline-date">2023 - Presente</div>
-                    <div class="timeline-content">
-                        <h3>Desarrollador Backend - ICBC - Pagos y B2B</h3>
-                        <p>Principales contribuciones:</p>
-                        <p>● Desarrollo de funcionalidades para la prevencion de fraudes.</p>
-                        <p>● Migración del producto Debito Inmediato Pagos en aplicación monolitica a microservicios, y de tecnologías viejas cómo Java 1.4 con JSP y Struts, a Spring y Angular. </p>
-                        <p>Tareas que realizo:</p>
-                        <p>● Resolución de issues productivos.</p>
-                        <p>● Implementación de nuevas funcionalidades al sistema.</p>
-                        <p>● Migraciones de productos a nuevas tecnologías y procesos.</p>
+                    <div class="timeline-date">
+                        <div>Desarrollador Backend | ICBC - Pagos y B2B</div>
+                        <div>2023 - Presente</div>
                     </div>
-                <div class="timeline-dot"></div>
-                    <div class="timeline-date">2024 - 2024</div>
                     <div class="timeline-content">
-                        <h3>Desarrollador Backend - Cobros, Administración y Seguridad</h3>
-                        <p>Temporalmente, contribui en el proyecto de generación y validación de Token propio ICBC, desarrollando funcionalidades para integrarlo en el área de pagos.</p>
+                        <p class="timeline-content-title">Principales contribuciones:</p>
+                        <p class="timeline-content-text">● Desarrollo de funcionalidades para la prevencion de fraudes.</p>
+                        <p class="timeline-content-text">● Contribuí en el proyecto de generación y validación de Token ICBC, del equipo de Cobros, Administración y Seguridad; desarrollando funcionalidades para integrarlo en el área de pagos. </p>
+                        <p class="timeline-content-text">● Migración del producto Débito Inmediato Pagos en aplicación monolítica a microservicios, y de tecnologías viejas cómo Java 1.4 con JSP y Struts, a Spring y Angular. </p>
+                        <p class="timeline-content-title">Tareas que realizo:</p>
+                        <p class="timeline-content-text">● Resolución de issues productivos.</p>
+                        <p class="timeline-content-text">● Implementación de nuevas funcionalidades al sistema.</p>
+                        <p class="timeline-content-text">● Migraciones de productos a nuevas tecnologías y procesos.</p>
                     </div>
         </div>
     </section>
-    <section class="education" id="education"></section>
+    <section class="education" id="education">
         <h2 class="heading">Docencia e Investigación</h2>
-
                 <div class="timeline-dot"></div>
-                    <div class="timeline-date">2022</div>
+                    <div class="timeline-date">
+                        <div>Becario de TI | LIFIA - UNLP</div>
+                        <div>2022</div>
+                    </div>
                     <div class="timeline-content">
-                        <h3>Becario de TI | LIFIA - UNLP</h3>
-                        <p>Redacté mi primer short-paper investigando sobre el uso de los datos de las redes sociales de mayor alcance, y su aplicación a una plataforma educativa de visualizacion de datos en diversos formatos</p>
+                        <p class="timeline-content-title">Redacté mi primer short-paper investigando sobre el uso de los datos de las redes sociales de mayor alcance, y su aplicación a una plataforma educativa de visualizacion de datos en diversos formatos</p>
                     </div>
             </div>
 
                 <div class="timeline-dot"></div>
-                    <div class="timeline-date">2022 - 2024</div>
+                <div class="timeline-date">
+                    <div>Investigador | LIFIA - UNLP</div>
+                    <div>2022 - 2024</div>
+                </div>
                     <div class="timeline-content">
-                        <h3>Investigador | LIFIA - UNLP</h3>
-                        <p>Investigué sobre prompt engineering y el acceso a apis de diversas IAs para poder implementarlas en una plataforma educativa. Luego, me involucre un tiempo con Metaversos y guantes hápticos, con Arduino y Unity.</p>
+                        <p class="timeline-content-title">Investigué sobre prompt engineering y el acceso a apis de diversas IAs para poder implementarlas en una plataforma educativa. Luego, me involucre un tiempo con Metaversos y guantes hápticos, con Arduino y Unity.</p>
                     </div>
             </div>
 
                 <div class="timeline-dot"></div>
-                    <div class="timeline-date">2023 - 2023</div>
+                    <div class="timeline-date">
+                        <div>Ayudante Adscripto - Cátedra de Orientación a Objetos 2 | UNLP</div>
+                        <div>2023 - 2023</div>
+                    </div>
                     <div class="timeline-content">
-                        <h3>Ayudante Adscripto - UNLP</h3>
-                        <p>En la cátedra de Orientación a Objetos 2</p>
-                    <p> Objetivos generales:
+                    <p class="timeline-content-title">
                             Profundizar los temas desarrollados en Orientación a Objetos 1 e introducir conceptos fundamentales en la construcción de arquitecturas de software modulares, extensibles y reusables, a través de conceptos fundamentales como: Patrones de diseño, refactoring y frameworks. También en el uso de UML, para construir diagramas especificando distintos aspectos de un sistema.</p>
                     </div>
             </div>
 
                 <div class="timeline-dot"></div>
-                    <div class="timeline-date">2023 - 2023</div>
+                <div class="timeline-date">
+                    <div>Mentor de Desarrollo Backend | MobyDigital</div>
+                    <div>2023 - 2023</div>
+                </div>
                     <div class="timeline-content">
-                        <h3>Mentor de Desarrollo Backend | MobyDigital </h3>
-                        <p>Tareas que realizaba:</p>
-                        <p>● Guiar, enseñar y transmitir conocimientos.</p>
-                        <p>● Estar en el día a día de los desarrolladores y resolver dudas o bloqueos.</p>
-                        <p>● Tomar decisiones de diseño, arquitectura e implementación.</p>
-                        <p>● Crear contenido del roadmap, ejercicios técnicos y evaluaciones técnicas.</p>
-                        <p>● Brindar onboarding técnico cuando ingresa un recurso.</p>
-                        <p>● Entrega y revisión del roadmap.</p>
-                        <p>● Crear un proyecto de práctica.</p>
-                        <p>● Corrección y revisión de código.</p>
-                        <p>● Participar de las mentorías 2 veces por semana.</p>
-                        <p>● Evaluar al alumno tanto en mentalidad como a nivel técnico.</p>
-                        <p>● Preparar ejercicios prácticos para los alumnos.</p>
-                        <p>● Enviar evaluaciones.</p>
-                        <p>● Corrección de evaluaciones.</p>
-                        <p>● Compromiso de entregables, evaluaciones y devoluciones en tiempo y forma.</p>
-                        <p>● Reportar el avance de los alumnos tanto técnica como actitudinalmente.</p>
-                        <p>● Entrevistar perfiles para Moby Academy.</p>
-                        <p>● Preparación de clases.</p>
+                        <p class="timeline-content-title">Tareas que realizaba:</p>
+                        <p class="timeline-content-text">● Guiar, enseñar y transmitir conocimientos.</p>
+                        <p class="timeline-content-text">● Estar en el día a día de los desarrolladores y resolver dudas o bloqueos.</p>
+                        <p class="timeline-content-text">● Tomar decisiones de diseño, arquitectura e implementación.</p>
+                        <p class="timeline-content-text">● Crear contenido del roadmap, ejercicios técnicos y evaluaciones técnicas.</p>
+                        <p class="timeline-content-text">● Brindar onboarding técnico cuando ingresa un recurso.</p>
+                        <p class="timeline-content-text">● Entrega y revisión del roadmap.</p>
+                        <p class="timeline-content-text">● Crear un proyecto de práctica.</p>
+                        <p class="timeline-content-text">● Corrección y revisión de código.</p>
+                        <p class="timeline-content-text">● Participar de las mentorías 2 veces por semana.</p>
+                        <p class="timeline-content-text">● Evaluar al alumno tanto en mentalidad como a nivel técnico.</p>
+                        <p class="timeline-content-text">● Preparar ejercicios prácticos para los alumnos.</p>
+                        <p class="timeline-content-text">● Enviar evaluaciones.</p>
+                        <p class="timeline-content-text">● Corrección de evaluaciones.</p>
+                        <p class="timeline-content-text">● Compromiso de entregables, evaluaciones y devoluciones en tiempo y forma.</p>
+                        <p class="timeline-content-text">● Reportar el avance de los alumnos tanto técnica como actitudinalmente.</p>
+                        <p class="timeline-content-text">● Entrevistar perfiles para Moby Academy.</p>
+                        <p class="timeline-content-text">● Preparación de clases.</p>
                     </div>
             </div>
 
                 <div class="timeline-dot"></div>
-                    <div class="timeline-date">2023 - Presente</div>
+                    <div class="timeline-date"></div>
+                    <div class="timeline-date">
+                        <div>Ayudante Alumno - Cátedra de Orientación a Objetos 1| UNLP</div>
+                        <div>2023 - Presente</div>
+                    </div>
                     <div class="timeline-content">
-                        <h3>Ayudante Alumno</h3>
-                        <p>En la cátedra de Orientación a Objetos 1</p>
-                        <p> Objetivos generales:
+                        <p class="timeline-content-text">
                             Presentar formalmente el paradigma de orientación a objetos, sus características, ventajas y aplicaciones dentro del desarrollo de sistemas de software. Desarrollar prácticas concretas con lenguajes orientados a Objetos. Establecer metodologías de análisis y diseño orientados a objetos.</p>
                     </div>
             </div>
         </div>
     </section>
-    <section class="contact" id="contact">
-        <h2 class="heading">Contactame</h2>
-        <form action="">
-            <div class="input-group">
-                <div class="input-box">
-                    <input type="text" placeholder="Nombre Completo">
-                    <input type="email" placeholder="Email">
-                </div>
-                <div class="input-box">
-                    <input type="number" placeholder="Numero de Celular">
-                    <input type="text" placeholder="Asunto">
-                </div>
-            </div>
-            <div class="input-group-2">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Tu mensaje"></textarea>
-                <input type="submit" value="Enviar Mensaje" class="btn">
-            </div>
-        </form>
-    </section>
+    <section class="education" id="publications">
+        <h2 class="heading">Publicaciones</h2>
+        <p>Paladino, J. L., Lliteras, A. B., Gardey, J. C., & Grigera, J. (2023). AlfaDatizando: Visualización de
+            contenido generado por usuarios de redes sociales. In XXVIII Congreso Argentino de Ciencias de
+            la Computación (CACIC)(La Rioja, 3 al 6 de octubre de 2022)</p>
+    </div>
+</section>
     <footer class="footer">
         <div class="social">
-            <a href="https://www.linkedin.com/in/jeziel-paladino/"><i class='bx bxl-linkedin'></i></a>
-            <a href="https://github.com/jezieel7"><i class='bx bxl-github'></i></a>
+            <a href="https://www.linkedin.com/in/jeziel-paladino/" target="_blank" rel="noopener noreferrer"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/jezieel7" target="_blank" rel="noopener noreferrer"><i class='bx bxl-github'></i></a>
         </div>
         <ul class="list">
             <li>
@@ -199,7 +206,7 @@
                 <a href="#">Proyectos</a>
             </li>
             <li>
-                <a href="#contact">Contacto</a>
+                <a href="mailto:jezielpaladino@gmail.com">Contacto</a>
             </li>
         </ul>
         <p class="copyright">
