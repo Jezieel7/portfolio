@@ -477,66 +477,38 @@ span{
     font-size: 16px;
     color: white;
 }
-
-
-
-
 .about-container {
     display: flex;
-    background-color: #0e1a2b;
+    background-color: --second-bg-color;
     color: #d8dee9;
     padding: 20px;
     border-radius: 10px;
+    text-align: center;
 }
-
 .about-content {
     flex: 2;
 }
-
-.about-picture {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.profile-image {
-    width: 100%;
-    max-width: 150px;
-    border-radius: 10px;
-    object-fit: cover;
-}
-
-.about-title {
-    color: #5e81ac;
-    font-size: 1.5em;
-    margin-bottom: 1em;
-}
-
 .about-description {
     line-height: 1.6;
     margin-bottom: 1em;
+    font-size: 18px;
 }
-
 .highlight {
     color: #8fbcbb;
 }
-
 .about-technologies {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
 }
-
 .about-technologies li {
     list-style-type: none;
     padding: 5px 10px;
     background-color: #3b4252;
     border-radius: 5px;
-    font-size: 0.9em;
+    font-size: 1.3em;
 }
-
 @media (max-width: 1285px) {
     html {
       font-size: 55%;
