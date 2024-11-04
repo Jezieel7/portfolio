@@ -1,7 +1,6 @@
 <!--
 TODO:
  Modificar seccion Sobre Mi.
- Modificar seccion Publicaciones.
  Agregar seccion de Proyectos.
  Agregar seccion de Blog.
  Modiificar estilado.
@@ -28,8 +27,8 @@ TODO:
             <a href="#about-me">Sobre mi</a>
             <a href="#education">Experiencia</a>
             <a href="#publications">Publicaciones</a>
-            <a href="https://github.com/jezieel7">Proyectos</a>
-            <a href="#">Blog</a>
+            <a href="#blog">Blog</a>
+            <a href="https://github.com/jezieel7" target="_blank" rel="noopener noreferrer">Proyectos</a>
             <a href="mailto:jezielpaladino@gmail.com">Contacto</a>
         </nav>
     </header>
@@ -54,17 +53,27 @@ TODO:
         </div>    
     </section>
     <section class="education" id="about-me">
+        <div>
             <h2 class="heading">Sobre Mi</h2>
-            <p>Sarasa Sarasa</p>
-            <ul>
-                <p>Stack Actual:</p>
-                <li><span>Frontend:</span> JavaScript, TypeScript, Angular.</li>
-                <li><span>Backend:</span> Java, Spring.</li>
-                <li><span>DB:</span> Oracle, MySQL.</li>
-            </ul>
-            <p>Fuera del trabajo, me interesa mantenerme en forma, jugar videojuegos (antes mas frecuentemente), el cine, la historia, geopolítica, y en general todo lo referido a la cultura; aunque realmente lo que me llena el alma, son mis amigos.</p>
         </div>
     </section>
+    <div class="about-container">
+        <div class="about-content">
+            <h1 class="about-title">/ about me</h1>
+            <p class="about-description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi, ad. Quam nesciunt voluptas sequi, sunt aliquam in sapiente aliquid incidunt repudiandae quaerat. Placeat expedita esse nostrum perferendis soluta reprehenderit fuga
+            </p>
+            <p class="about-description">Stack Actual:</p>
+            <ul class="about-technologies">
+                    <li><span>Frontend:</span> JavaScript, TypeScript, Angular.</li>
+                    <li><span>Backend:</span> Java, Spring.</li>
+                    <li><span>DB:</span> Oracle, MySQL.</li>
+                </ul>
+            <p class="about-description">
+                Fuera del trabajo, me interesa mantenerme en forma, jugar videojuegos (antes mas frecuentemente), el cine, la historia, geopolítica, y en general todo lo referido a la cultura; aunque realmente lo que me llena el alma, son mis amigos.
+            </p>
+        </div>
+    </div>
     <section class="education" id="education">
         <h2 class="heading">Desarrollo y Tecnología</h2>
                 <div class="timeline-dot"></div>
@@ -176,11 +185,11 @@ TODO:
                 <div class="timeline-dot"></div>
                     <div class="timeline-date"></div>
                     <div class="timeline-date">
-                        <div>Ayudante Alumno - Cátedra de Orientación a Objetos 1| UNLP</div>
+                        <div>Ayudante Alumno - Cátedra de Orientación a Objetos 1 | UNLP</div>
                         <div>2023 - Presente</div>
                     </div>
                     <div class="timeline-content">
-                        <p class="timeline-content-text">
+                        <p class="timeline-content-title">
                             Presentar formalmente el paradigma de orientación a objetos, sus características, ventajas y aplicaciones dentro del desarrollo de sistemas de software. Desarrollar prácticas concretas con lenguajes orientados a Objetos. Establecer metodologías de análisis y diseño orientados a objetos.</p>
                     </div>
             </div>
@@ -188,10 +197,17 @@ TODO:
     </section>
     <section class="education" id="publications">
         <h2 class="heading">Publicaciones</h2>
-        <p>Paladino, J. L., Lliteras, A. B., Gardey, J. C., & Grigera, J. (2023). AlfaDatizando: Visualización de
+        <div class="timeline-content">
+        <p class="timeline-content-title">
+            Paladino, J. L., Lliteras, A. B., Gardey, J. C., & Grigera, J. (2023). AlfaDatizando: Visualización de
             contenido generado por usuarios de redes sociales. In XXVIII Congreso Argentino de Ciencias de
             la Computación (CACIC)(La Rioja, 3 al 6 de octubre de 2022)</p>
+        </div>
     </div>
+</section>
+<section class="education" id="blog">
+    <h2 class="heading">Accedé a mi <a href="https://github.com/jezieel7" style="text-decoration: underline;">Blog</a></h2>
+</div>
 </section>
     <footer class="footer">
         <div class="social">
@@ -203,7 +219,7 @@ TODO:
                 <a href="#">Blog</a>
             </li>
             <li>
-                <a href="#">Proyectos</a>
+                <a href="https://github.com/jezieel7" target="_blank" rel="noopener noreferrer">Proyectos</a>
             </li>
             <li>
                 <a href="mailto:jezielpaladino@gmail.com">Contacto</a>
