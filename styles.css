@@ -70,7 +70,7 @@ body{
 }
 
 section{
-    min-height: 100vh;
+    min-height: 87vh;
     padding: 10rem 12% 10rem;
 }
 .home{
@@ -178,6 +178,13 @@ span{
     background: var(--second-bg-color);
 }
 .education h2{
+    margin-bottom: 5rem;
+}
+.publications{
+    padding-top: 20vh;
+    background: var(--second-bg-color);
+}
+.publications h2{
     margin-bottom: 5rem;
 }
 .timeline-items{
@@ -478,29 +485,22 @@ span{
     color: white;
 }
 .about-container {
-    display: flex;
+    padding-top: 20vh;
     background-color: --second-bg-color;
     color: #d8dee9;
-    padding: 20px;
-    border-radius: 10px;
     text-align: center;
-}
-.about-content {
-    flex: 2;
 }
 .about-description {
     line-height: 1.6;
     margin-bottom: 1em;
     font-size: 18px;
 }
-.highlight {
-    color: #8fbcbb;
-}
 .about-technologies {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
     margin-bottom: 2em;
+    justify-content: center;
 }
 .about-technologies li {
     list-style-type: none;
@@ -508,6 +508,9 @@ span{
     background-color: #3b4252;
     border-radius: 5px;
     font-size: 1.3em;
+}
+.highlight {
+    color: #8fbcbb;
 }
 @media (max-width: 1285px) {
     html {
